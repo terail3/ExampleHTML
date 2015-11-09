@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>Калькулятор</title>
+</head>
+	<body>
+		<header>	
+			<img src="webLogo.png" alt="Логотип" width="300" /><br />
+			<h1>Основы Web-технологий</h1>	
+		<nav>	
+			<ul>
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="web-technology.html">Web-технологии</a>
+					<ul>
+						<li><a href="HTML5.html">HTML5</a></li>
+						<li><a href="CSS3.html">CSS3</a></li>
+						<li><a href="JavaScript.html">JavaScript</a></li>
+					</ul>
+				</li>
+				<li><a href="calculator.html">Калькулятор</a></li>
+				<li><a href="test.html">Тест</a></li>
+			</ul>
+		</nav>
+		</header>
+		<div>
+			<form name="calculator">
+				<table border="1">
+					<tr>
+						<td colspan="5">&nbsp;</td>
+					</tr>
+					<tr>
+						<td><input type="button" name="button" value="7" /></td>
+						<td><input type="button" name="button" value="8" /></td>
+						<td><input type="button" name="button" value="9" /></td>
+						<td><input type="button" name="button" value="/" /></td>
+						<td><input type="button" name="button" value="C" /></td>
+					</tr>
+					<tr>
+						<td><input type="button" name="button" value="4" /></td>
+						<td><input type="button" name="button" value="5" /></td>
+						<td><input type="button" name="button" value="6" /></td>
+						<td><input type="button" name="button" value="*" /></td>
+						<td><input type="button" name="button" value="&plusmn;" /></td>
+					</tr>
+					<tr>
+						<td><input type="button" name="button" value="1" /></td>
+						<td><input type="button" name="button" value="2" /></td>
+						<td><input type="button" name="button" value="3" /></td>
+						<td><input type="button" name="button" value="-" /></td>
+						<td rowspan="2"><input type="button" name="button" onclick="click" value="=" /></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input type="button" name="button" onclick="click" value="0" /></td>
+						<td><input type="button" name="button" value="." /></td>
+						<td><input type="button" name="button" value="+" /></td>
+					</tr>		
+				</table>
+			</form>	
+		</div>	
+		<footer>
+		<address><a href="mailto:mail@example.com">Пишите:mail@mail</a></address>
+			&copy; Фамилия И.О.,год
+		</footer>
+	</body>
+</html>
